@@ -37,13 +37,8 @@ int main(){
     addEdge(adj, edge_Count,3,1);
     addEdge(adj,edge_Count,3,4);
     addEdge(adj,edge_Count,4 ,3);
-     addEdge(adj,edge_Count,4 ,2);
-      addEdge(adj,edge_Count,4 ,1);
-    
-
-
-    
-
+    addEdge(adj,edge_Count,4 ,2);
+    addEdge(adj,edge_Count,4 ,1);
     displayAdj(adj,edge_Count);
     return 0;
 }
