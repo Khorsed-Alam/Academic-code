@@ -46,6 +46,7 @@ void inorder(Node* root) {
 
 int main() {
     Node* root = new Node(50);
+    
     root = insert(root, 30);
     root = insert(root, 20);
     root = insert(root, 40);
